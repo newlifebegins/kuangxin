@@ -1,0 +1,37 @@
+.kx-navbar {min-height: 89px;margin-bottom: 0px;border: none;border-bottom: 1px solid rgba(136,149,239,0.2);background: rgba(0,0,0,0.2);position: absolute;left: 0;top: 0;right: 0;}
+
+.kx-navbar-brand {float: left;height: 89px;padding: 15px 15px;font-size: 18px;line-height: 20px;}
+.kx-navbar-brand span {display: none;}
+.kx-nav>li:nth-of-type(even){display: none;}
+.kx-navbar .kx-nav>li>a{color: #eee;}
+.kx-navbar .kx-nav>li.active>a,.kx-navbar .kx-nav>li.active>a:hover,.kx-navbar .kx-nav>li>a:hover{color: #8fc320;background-color: transparent;}
+.kx-nav>li>a {padding: 10px 15px 10px;}
+.kx-nav>li:last-child>a{background: url(../images/icon/search.png) no-repeat center 47px;text-indent: -9999px;}
+.kx-container .navbar-toggle {margin-top: 27px;margin-bottom: 27px;}
+.kx-carousel{left: 30.217%;}
+.kx-carousel li{width: 17px;height: 7px;border-radius: 7px;background-color: rgba(255,255,255,0.6);border: none;margin: 0;}
+.kx-carousel li.active{width: 37px;height: 7px;border-radius: 7px;background-color: #8fc320;}
+@media (min-width: 768px) {
+  .kx-container {width: 750px;}
+  .kx-nav>li:nth-of-type(even){display: none;}
+  .kx-nav>li>a {padding: 10px 15px 10px;}
+  .kx-container .navbar-toggle {display: block;}
+  .kx-container .navbar-collapse.collapse {display: none !important;visibility: hidden !important;}
+  .kx-container .navbar-header {float: none;}
+  .kx-container .navbar-nav>li {float: none;}
+  .kx-container .navbar-right {float: none !important;}
+  .kx-container .navbar-collapse.in {display: block !important;visibility: visible !important;overflow-y: visible !important;}
+}
+@media (min-width: 992px) {
+  .kx-container {width: 970px;}
+  .kx-container .navbar-toggle {display: none;}
+  .kx-nav>li:nth-of-type(even){line-height: 20px;color: #eee;padding: 45px 0px 24px;display: inline-block;}
+  .kx-nav>li>a {padding: 45px 15px 24px;}
+  .kx-container .navbar-collapse.collapse {display: block !important;height: auto !important;padding-bottom: 0;overflow: visible !important;visibility: visible !important;}
+  .kx-container .navbar-header {float: left;}
+  .kx-container .navbar-nav>li {float: left;}
+  .kx-container .navbar-right {float: right !important;}
+}
+@media (min-width: 1200px) {
+  .kx-container {width: 1198px;}
+}
