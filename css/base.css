@@ -1,5 +1,4 @@
 .kx-navbar {margin-bottom: 0px;border: none;border-bottom: 1px solid rgba(136,149,239,0.2);background: rgba(0,0,0,0.2);position: absolute;left: 0;top: 0;right: 0;}
-
 .kx-navbar-brand {float: left;height: auto;padding: 5px 15px;font-size: 18px;line-height: 20px;}
 .kx-navbar-brand span {display: none;}
 .kx-navbar-brand img {width: 150px;}
@@ -12,6 +11,27 @@
 .kx-carousel{left: 30.217%;}
 .kx-carousel li{width: 10px;height: 4px;border-radius: 4px;background-color: rgba(255,255,255,0.6);border: none;margin: 0;}
 .kx-carousel li.active{width: 20px;height: 4px;border-radius: 4px;background-color: #8fc320;}
+/*产品展示*/
+.product-nav{background: #f5f5f5;display: none;}
+.product{text-align: center;padding-top: 48px;padding-bottom: 48px;}
+.product.active,.product:hover{background: #8fc320;color: #fff;}
+.product figure{width: 100px;height: 100px;margin: 0 auto 24px;}
+.product .prod1{background: url(../images/index/supnav1.png) no-repeat center;}
+.product .prod2{background: url(../images/index/supnav2.png) no-repeat center;}
+.product .prod3{background: url(../images/index/supnav3.png) no-repeat center;}
+.product .prod4{background: url(../images/index/supnav4.png) no-repeat center;}
+#product{margin: 20px 0;}
+#product .item{}
+#product .item dl{background: #fff;margin-bottom: 0;}
+#product .item dl dt{float: none;text-align: center;}
+#product .item dl dt img{width: 70%;}
+#product .item dl dd{background: #fff;width: 70%;margin: 10px auto 0;}
+#product .item dl dd h5{font-size: 18px;color: #333;border-bottom: 2px solid #8fc320;border-top: 2px solid #8fc320;display: inline-block;padding: 10px 0;margin: 0;font-weight: 500;}
+#product .item dl dd p{font-size: 12px;color: #666;line-height: 28px;margin: 10px 0;max-height: 56px;overflow: hidden;}
+#product .item dl dd a {font-size: 16px;padding: 8px 18px;border-radius: 3px;display: inline-block;}
+#product .item dl dd a:nth-of-type(1) {color: #fff;background: #8fc320;border: 1px solid transparent;}
+#product .item dl dd a:nth-of-type(2) {color: #1295f2;border: 1px solid #1295f2;margin-left: 15px;}
+#product .carousel-control{background: none;top: 50%;font-size: 40px;}
 @media (min-width: 768px) {
   .kx-container {width: 750px;}
   .kx-nav>li:nth-of-type(even){display: none;}
@@ -22,6 +42,17 @@
   .kx-container .navbar-nav>li {float: none;}
   .kx-container .navbar-right {float: none !important;}
   .kx-container .navbar-collapse.in {display: block !important;visibility: visible !important;overflow-y: visible !important;}
+  .product-nav{background: #f5f5f5;display: block;}
+  #product .carousel-control{background: none;display: none;}
+  #product .item{display: none;}
+  #product .item.active{display: inline-block;}
+  #product{margin: 80px 0;}
+  #product .item dl dt{float: left;}
+  #product .item dl dt img{width: 370px;}
+  #product .item dl dd{margin: 0 0 0 390px;width: auto;}
+  #product .item dl dd h5{font-size: 20px;color: #333;border-bottom: 2px solid #8fc320;border-top: 2px solid #8fc320;display: inline-block;padding: 12px 0;margin: 0;font-weight: 500;}
+  #product .item dl dd p{font-size: 12px;color: #666;line-height: 30px;margin: 15px 0 10px;max-height: 90px;overflow: hidden;}
+  #product .item dl dd a {font-size: 16px;padding: 10px 20px;border-radius: 3px;display: inline-block;}
 }
 @media (min-width: 992px) {
   .kx-container {width: 970px;}
@@ -36,6 +67,12 @@
   .kx-container .navbar-right {float: right !important;}
   .kx-carousel li{width: 17px;height: 7px;border-radius: 7px;background-color: rgba(255,255,255,0.6);border: none;margin: 0;}
   .kx-carousel li.active{width: 37px;height: 7px;border-radius: 7px;background-color: #8fc320;}
+  #product{margin: 146px 0;}
+  #product .item dl dt img{width: 100%;}
+  #product .item dl dd{margin-left: 590px;}
+  #product .item dl dd h5{font-size: 24px;color: #333;border-bottom: 3px solid #8fc320;border-top: 3px solid #8fc320;display: inline-block;padding: 20px 0;margin: 0;font-weight: 500;}
+  #product .item dl dd p{font-size: 12px;color: #666;line-height: 36px;margin: 23px 0;max-height: 144px;overflow: hidden;}
+  #product .item dl dd a {font-size: 16px;padding: 15px 40px;border-radius: 3px;display: inline-block;}
 }
 @media (min-width: 1200px) {
   .kx-container {width: 1198px;}
