@@ -24,8 +24,8 @@
 #product .item{}
 #product .item dl{background: #fff;margin-bottom: 0;}
 #product .item dl dt{float: none;text-align: center;}
-#product .item dl dt img{width: 70%;}
-#product .item dl dd{background: #fff;width: 70%;margin: 10px auto 0;}
+#product .item dl dt img{width: 85%;}
+#product .item dl dd{background: #fff;width: 85%;margin: 10px auto 0;}
 #product .item dl dd h5{font-size: 18px;color: #333;border-bottom: 2px solid #8fc320;border-top: 2px solid #8fc320;display: inline-block;padding: 10px 0;margin: 0;font-weight: 500;}
 #product .item dl dd p{font-size: 12px;color: #666;line-height: 28px;margin: 10px 0;max-height: 56px;overflow: hidden;}
 #product .item dl dd a {font-size: 16px;padding: 8px 18px;border-radius: 3px;display: inline-block;}
