@@ -31,9 +31,13 @@
 #product .item dl dd a {font-size: 16px;padding: 8px 18px;border-radius: 3px;display: inline-block;}
 #product .item dl dd a:nth-of-type(1) {color: #fff;background: #8fc320;border: 1px solid transparent;}
 #product .item dl dd a:nth-of-type(2) {color: #1295f2;border: 1px solid #1295f2;margin-left: 15px;}
-#product .carousel-control{background: none;top: 50%;font-size: 40px;}
+#product .carousel-control,.application-sx .carousel-control{background: none;top: 50%;font-size: 40px;}
 #product .carousel-control.left{text-align: left;}
 #product .carousel-control.right{text-align: right;}
+.application{display: none;}
+.application-sx{display: block;}
+.application-sx figcaption{background: #f5f5f5 url(../images/index/apply-nav.png) no-repeat center top;line-height: 40px;text-align: center;font-size: 16px;color: #fff;}
+.application-sx figure img{width: 100%;}
 @media (min-width: 768px) {
   .kx-container {width: 750px;}
   .kx-nav>li:nth-of-type(even){display: none;}
@@ -55,6 +59,22 @@
   #product .item dl dd h5{font-size: 20px;color: #333;border-bottom: 2px solid #8fc320;border-top: 2px solid #8fc320;display: inline-block;padding: 12px 0;margin: 0;font-weight: 500;}
   #product .item dl dd p{font-size: 12px;color: #666;line-height: 30px;margin: 15px 0 10px;max-height: 90px;overflow: hidden;}
   #product .item dl dd a {font-size: 16px;padding: 10px 20px;border-radius: 3px;display: inline-block;}
+  .application{background: #f5f5f5 url(../images/index/apply-nav.png) no-repeat center top;}
+  .application .jumbotron{background: transparent;text-align: center;padding-left: 200px;padding-right: 200px;padding-top: 20px;padding-bottom: 0px;margin-bottom: 10px;}
+  .application .jumbotron h1{margin: 10px 0;font-size: 28px;letter-spacing: 2px;color: #333;font-weight: 500;}
+  .application .jumbotron p{margin: 10px;font-size: 14px;color: #888;}
+  .application .nav-tongxin{background: url(../images/icon/apply-icon1.png) no-repeat left center,url(../images/icon/down.png) no-repeat 95% center;padding-left: 30px;line-height: 100px;font-size: 18px;color: #f5f5f5;}
+  .application .nav-dianli{background: url(../images/icon/apply-icon2.png) no-repeat left center,url(../images/icon/down.png) no-repeat 95% center;padding-left: 30px;line-height: 100px;font-size: 18px;color: #f5f5f5;}
+  .application .nav-jiaotong{background: url(../images/icon/apply-icon3.png) no-repeat left center,url(../images/icon/down.png) no-repeat 95% center;padding-left: 30px;line-height: 100px;font-size: 18px;color: #f5f5f5;}
+  .application .nav-huishou{background: url(../images/icon/apply-icon4.png) no-repeat left center,url(../images/icon/down.png) no-repeat 95% center;padding-left: 30px;line-height: 100px;font-size: 18px;color: #f5f5f5;}
+  .application .row div.active,.application .row div:hover{background: #fff;color: #90c221;}
+  .application .app-col{display: none;}
+  .application .app-col.active{display: block;}
+  .application .app-col div{margin-top: 15px;margin-bottom: 15px;}
+  .application .app-col img{width: 100%;}
+  .application .app-col p{width: 100%;height: 50px;line-height: 50px;background: rgba(0,0,0,0.4);font-size: 16px;color: #fff;text-indent: 20px;position: absolute;left: 0;bottom: 0;right: 0;margin: 0;} 
+  .application{display: block;}
+  .application-sx{display: none;}
 }
 @media (min-width: 992px) {
   .kx-container {width: 970px;}
