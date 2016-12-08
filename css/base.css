@@ -32,6 +32,8 @@
 #product .item dl dd a:nth-of-type(1) {color: #fff;background: #8fc320;border: 1px solid transparent;}
 #product .item dl dd a:nth-of-type(2) {color: #1295f2;border: 1px solid #1295f2;margin-left: 15px;}
 #product .carousel-control{background: none;top: 50%;font-size: 40px;}
+#product .carousel-control.left{text-align: left;}
+#product .carousel-control.right{text-align: right;}
 @media (min-width: 768px) {
   .kx-container {width: 750px;}
   .kx-nav>li:nth-of-type(even){display: none;}
